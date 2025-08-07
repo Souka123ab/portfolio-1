@@ -17,11 +17,10 @@ function Header() {
         </div>
         <nav>
           <ul className={menuOpen ? 'nav-links active' : 'nav-links'}>
-            <li><a href="#home">Accueil</a></li>
-            <li><a href="#about">À propos</a></li>
-            <li><a href="#projects">Projets</a></li>
-            <li><a href="#skills">Compétences</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#skills">My Skills</a></li>
+            <li><a href="#projects">My Projects</a></li>
+            <li><a href="#contact">Contact me</a></li>
           </ul>
         </nav>
         <div className="menu-toggle" onClick={toggleMenu}>

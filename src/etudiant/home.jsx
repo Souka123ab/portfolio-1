@@ -33,10 +33,10 @@ function Home({ menuOpen }) {
         </div>
       </div>
     </div>
-   <div className="section-2">
+   <div className="section-2" id='about'>
   <div className="circle-background"></div>
 
-  <div className="about-content">
+  <div className="about-content" >
     <h3>About Me</h3>
     <p>
       I am a passionate software developer and designer with a solid background in both front-end and back-end technologies.  
@@ -48,7 +48,7 @@ function Home({ menuOpen }) {
     </p>
   </div>
 </div>
-  <div className='section-3'>
+  <div className='section-3'  id='skills'>
   <h3>My Skills</h3>
   <div className="grop">
 
@@ -113,7 +113,17 @@ function Home({ menuOpen }) {
 <div className="cercle-petite"></div>
 <div className="cercle-petite-1"></div>
 </div>
+
 </div>
+<div className="section-4">
+  <h3>My Projects</h3>
+  <div className="project">
+    <a href="https://github.com/Souka123abr" target="_blank" rel="noopener noreferrer">
+      🌐 Voir mes projets sur GitHub
+    </a>
+  </div>
+</div>
+
  </div>
     </div>
   );
