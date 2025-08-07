@@ -71,14 +71,19 @@ function Home({ menuOpen }) {
   </div>
 
   <div className="skill-item">
-    <label>React <span className="percent">75%</span></label>
-    <div className="progress-bar"><span style={{ width: '75%' }}></span></div>
+    <label>React <span className="percent">65%</span></label>
+    <div className="progress-bar"><span style={{ width: '65%' }}></span></div>
   </div>
 
   <div className="skill-item">
     <label>PHP <span className="percent">70%</span></label>
     <div className="progress-bar"><span style={{ width: '70%' }}></span></div>
   </div>
+
+    <div className="skill-item">
+    <label>laravel <span className="percent">60%</span></label>
+    <div className="progress-bar"><span style={{ width: '60%' }}></span></div>
+    </div>
 
   <div className="skill-item">
     <label>MySQL <span className="percent">80%</span></label>
@@ -90,6 +95,20 @@ function Home({ menuOpen }) {
     <div className="progress-bar"><span style={{ width: '85%' }}></span></div>
   </div>
 
+    <div className="skill-item">
+    <label>Git & GitHub <span className="percent">80%</span></label>
+    <div className="progress-bar"><span style={{ width: '80%' }}></span></div>
+    </div>
+
+    <div className="skill-item">
+      <label htmlFor="nodejs">Node.js <span className="percent">30%</span></label>
+      <div className="progress-bar"><span style={{ width: '30%' }}></span></div>
+    </div>
+
+    <div className="skill-item">
+      <label htmlFor="nodejs">API <span className="percent">50%</span></label>
+      <div className="progress-bar"><span style={{ width: '50%' }}></span></div>
+    </div>
 
 </div>
 <div className="cercle">
@@ -115,7 +134,7 @@ function Home({ menuOpen }) {
 </div>
 
 </div>
-<div className="section-4">
+<div className="section-4" id='projects'>
   <h3>My Projects</h3>
   <div className="project">
     <a href="https://github.com/Souka123abr" target="_blank" rel="noopener noreferrer">
@@ -123,7 +142,17 @@ function Home({ menuOpen }) {
     </a>
   </div>
 </div>
+<br />
+    <div className="contact-me" id='contact'>
+      <form action="">
+        <label htmlFor="email"> Email</label>
+        <input type="email" placeholder='your email'  id='email'/>
+        <label htmlFor="message">Message</label>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        <button type="submit">Send</button>
 
+      </form>
+    </div>
  </div>
     </div>
   );
